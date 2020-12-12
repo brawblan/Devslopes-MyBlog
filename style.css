@@ -1,0 +1,119 @@
+html {
+    width: 100%;
+    background-color: lightgray;
+    font-family: 'Philosopher', sans-serif;
+}
+
+header {
+    border-bottom: 3px ridge black;
+    background-color: grey;
+    opacity: .98;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0%;
+    z-index: 1;
+}
+
+.pearlIcon {
+    scale: 50%;
+    left: 5%;
+    width: 20%;
+}
+
+nav {
+    position: absolute;
+    right: 10%;
+    top: 45px;
+}
+
+nav a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;    
+}
+
+a {
+    background: -webkit-linear-gradient(white, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(20, 20, 20);
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    top: 100px;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+table {
+    margin-top: 150px;
+    position: relative;
+}
+
+thead, tr, td {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+td h2 {
+    text-align: left;
+}
+
+td {
+    text-align: center;
+}
+
+.pictures img {
+    z-index: -1;
+    width: 500px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-bottom: 100px;
+    bottom: 100px;
+}
+
+section {
+    margin-top: 150px;
+    height: 33%;
+    position: relative;
+}
+
+.signUp {
+    text-decoration: underline;
+}
+
+button {
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+footer, .address {
+    text-align: center;
+    background-color: grey;
+}
+
+footer {
+    border-top: 3px ridge black;
+}
+
+.social a i {
+    font-size: 50px;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -webkit-linear-gradient(white, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
